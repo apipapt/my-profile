@@ -1,0 +1,23 @@
+# robots.txt - Search Engine Crawler Directives
+# This file tells search engines which pages to crawl and which to skip
+
+User-agent: *
+Allow: /
+Allow: *.css
+Allow: *.js
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.gif
+
+# Block crawler access to unnecessary files
+Disallow: *.pdf
+Disallow: *?*sort=
+Disallow: */admin/
+Disallow: */private/
+
+# Sitemap location
+Sitemap: https://apipapriyanto.netlify.app/sitemap.xml
+
+# Crawl delay (in seconds) - optional, helps reduce server load
+Crawl-delay: 1
